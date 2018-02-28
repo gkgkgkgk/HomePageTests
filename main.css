@@ -54,7 +54,7 @@ body{
       rgba(38,50,56, 0.6)
     ),
     /* bottom, image */
-    url(s.jpg) no-repeat center center fixed;
+    url(pencil.jpg) no-repeat center center fixed;
 	-webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -64,6 +64,14 @@ body{
 .descImg {
 	height: 5em;
 	width: auto;
+}
+
+
+.square {
+    width: 100%;
+    padding-bottom: 50%;
+    background-size: cover;
+    background-position: center;
 }
 
 #my-signin2 {
